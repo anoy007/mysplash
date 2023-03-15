@@ -1,0 +1,89 @@
+.navbar{
+    display: flex;
+    padding: 5px;
+    background-color: aqua;
+    justify-content: space-between;
+    margin-top: 20px;
+
+}
+
+.navbar h1{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar-logo-items{
+    display: flex;
+    gap: 10px;
+}
+
+.navbar-menu{
+    display: flex;
+    list-style: none;
+    margin: 4px;
+    gap: 8px;
+    float: right;
+}
+
+.navbarsec-menu {
+    display: flex;
+    list-style: none;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+    cursor: pointer;
+    
+}
+
+.navbarsec{
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    /* width: 100%; */
+    
+    
+}
+
+.navbarsec span{
+    border-right: 1px solid black;
+    height: 21px;
+    width: 4px;
+}
+
+.navbarsec-menu .active{
+    border-bottom: 3px solid rgb(163, 163, 34);
+}
+
+.navbar-all{
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+}
+
+.navbar-logo-items .form-control{
+    margin-top: 6px ;
+}
+
+.navbar-logo-items input[type="text"] {
+    width: 500px;
+    border-radius: 6px;
+    border: 1px solid;
+    height: 20px;
+}
+
+
+
+.navbar-logo-items button{
+    width: auto;
+    height: 20px;
+    border-radius: 8px;
+    background-color: grey;
+    color: blue;
+    border: none;
+}
+
+.navbar-logo a{
+   text-decoration: none;
+}
+/* .header{
+    position: fixed;
+} */
